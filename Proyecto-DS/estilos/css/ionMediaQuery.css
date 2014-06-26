@@ -1,0 +1,68 @@
+.carousel-inner>.item>img{
+    display: block;
+    height: 500px !important;
+    margin: 0 auto !important;
+    max-width: 100%;
+    width: 100% !important;
+    line-height: 1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    -moz-transition: all 1s;
+} 
+form a{
+    text-decoration: none; 
+}
+form p{
+    padding-left: 1em;
+    text-align: left !important;
+} 
+form p#titulor{
+    border-bottom: solid .1em rgb(179, 173, 173);
+    border-left: solid .4em rgb(168, 154, 154);
+    color: rgb(168, 154, 154);
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding-left: 1em;
+    text-align: left;
+    width: 90%;
+}
+form a i{
+    color: rgb(98, 144, 214);
+}
+form hr{
+    opacity: .4;
+    width: 80%;
+}
+@media screen and (max-width: 600px)
+{
+	.carousel-inner>.item>img{ 
+	    height: 350px !important;  
+    	
+        transition: all 1s;
+        -o-transition: all 1s; 
+        -ms-transition: all 1s;
+        -moz-transition: all 1s;
+	} 
+    form{
+        width: 100%;
+        transition: all 1s;
+        -o-transition: all 1s; 
+        -ms-transition: all 1s;
+        -moz-transition: all 1s;
+    }
+    form#formr{
+        margin-top: 1em;
+    }
+}
+@media screen and (max-width: 380px)
+{
+	.carousel-inner>.item>img{ 
+	    height: 200px !important;  
+    	transition: all 1s; 
+    	-o-transition: all 1s; 
+	    -ms-transition: all 1s;
+	    -moz-transition: all 1s;
+	} 
+}

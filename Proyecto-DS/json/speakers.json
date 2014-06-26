@@ -1,0 +1,31 @@
+[
+    {
+        "speakers" : [
+        {
+            "name" : "Agapito",
+            "gplusid" : "100213285493687097043",
+            "image" : "https://lh5.googleusercontent.com/-4007Z1IWCjk/UIyyGLGnPiI/AAAAAAAAAEc/huhMklnf8bQ/s577-no/P1030949.JPG",
+            "company" : "Xendra",
+            "title" : ""
+        }],
+        "title" : "Xendra ERP",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 0
+    },
+    {
+        "speakers" : [{
+            "name" : "",
+            "gplusid" : "+ArmandoPicon",
+            "image" : "https://lh6.googleusercontent.com/-mNRDuVdZx7I/UvFWsL_Sz-I/AAAAAAAAcN8/5IeT92xkpkQ/w480-h482-no/20140131_075642.jpg",
+            "company" : "GDG Open Lima",
+            "title" : "",
+            "facebook": "https://www.facebook.com/gdgopenlima",
+            "twitter": "https://twitter.com/apiconz",
+            "youtube": "https://www.youtube.com/user/apiconz"
+     
+        }],
+        "title" : "Android",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 1
+    }
+]

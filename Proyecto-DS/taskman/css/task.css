@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+} 
+
+#end{
+	background: rgb(201, 48, 60);
+	font-family: monospace;
+	padding-bottom: .2em;
+	padding-left: .6em;
+	padding-right: .6em;
+	padding-top: .2em;
+}
+#end:hover{
+	background: rgb(175, 28, 39);
+}
+div#cabecera{
+	background-color: #8B8B8B;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+div#cabecera a{
+	color:white; 
+	text-decoration:none;
+
+	transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+}
+div#cabecera a:hover{
+	color: white;  
+	text-shadow: 0 0 .1em white;
+	transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+}
+div#cabecera p{
+	color: white;
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+div#botones{ 
+	margin: 0 auto;
+	padding-top: .8em;
+	text-align: center;
+	width: 100%;
+}
+div#botones a{
+	display: inline-block;
+	text-decoration: none;
+}
+div#botones a p{
+	background: rgb(245, 231, 231);
+	border-bottom: solid .1em black;
+	color: rgb(148, 139, 139); 
+	margin-left: 1em; 
+	padding-bottom: .4em;
+	padding-top: .4em;
+	text-decoration: none;
+	text-align: center; 
+	width: 200px;
+
+	transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+}
+div#botones a p:hover{ 
+	background-color: #8B8B8B;
+	border-bottom: solid .1em white;
+	box-shadow: 0 0 .1em black;
+	color: white;
+	transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+}
+
+/*
+	TARJETAS DE NOTAS
+*/
+div#tarjetas{ 
+	margin: 0 auto;
+	margin-bottom: 4em;
+	margin-top: 4em;
+	text-align: left;
+	width: 80%;
+
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+}
+div#tarjetas div#capsulas{ 
+	background-color: rgb(182, 228, 185);
+	box-shadow: 0 0 .1em black;
+	padding-bottom: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 2em;
+	opacity: .6;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+}
+div#tarjetas div#capsulas:hover{
+	opacity: 1;
+}
+div#tarjetas div#capsulas p{
+	background-color: rgb(235, 129, 129);
+	box-shadow: 0 0 .1em black;
+	color: rgb(241, 241, 241);
+	cursor: pointer;
+	display: inline-block;
+	font-family: cursive;
+	font-size: 1em;
+	margin-left: .8em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+
+	text-shadow: 0 0 .1em rgb(241, 241, 241);
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+}
+div#tarjetas div#capsulas p:hover{
+	background-color: rgb(211, 81, 81);
+	color: white;
+	text-shadow: 0 0 .1em black;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+}
+h2{
+	color: black;
+	padding-left: 1em;
+	text-shadow: 0 0 .1em black;
+}
+
+@media screen and (max-width: 800px)
+{
+	div#tarjetas{
+		width: 100%;
+
+		transition: all 1s;
+		-webkit-transition: all 1s;
+		-o-transition: all 1s;
+		-moz-transition: all 1s;
+		-ms-transition: all 1s;
+	}
+	div#tarjetas div#capsulas{
+		opacity: 1;
+	}
+}

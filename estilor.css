@@ -1,0 +1,74 @@
+		body{
+			background-color: rgba(236, 236, 236, 1);
+		}
+		form{
+			background-color: white;
+			border: none; 
+			box-shadow: 0 2px 1em rgb(39, 32, 32);
+			margin: 0 auto;
+			margin-top: 2em;
+			padding-bottom:  2em;
+			padding-top: 2em;
+			text-align: center;
+			width: 50%;
+			transition: all 1s;
+	    	-o-transition: all 1s; 
+		    -ms-transition: all 1s;
+		    -moz-transition: all 1s;
+		}
+		form button{
+			background-color: #9C9C9C;
+			border: none;cursor: pointer;
+			padding: .8em 1em;
+			transition: all 1s;
+			-webkit-transition: all 1s;
+			-o-transition: all 1s;
+			-ms-transition: all 1s;
+			-moz-transition: all 1s;
+		} 
+		form button:hover{
+			background-color: #757373;
+			color: white; 
+		} 
+		form div, form button{ 
+			color:  black;
+			font-family: inherit;
+			margin-top: 1em;
+		} 
+		form div{
+			color: rgb(141, 118, 118); 
+			margin-top: 1em;
+			text-align: center; 
+		}
+		form input,form textarea{
+			border:solid .1em rgb(179, 173, 173);
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			color: #858080;
+			font-family: cursive;
+			height: 18px;
+			padding-bottom: .4em;
+			padding-left: .4em;
+			padding-top: .4em; 
+			outline: none;
+			width: 150px;
+			transition: all 1s;
+			-webkit-transition: all 1s;
+			-o-transition: all 1s;
+			-ms-transition: all 1s;
+			-moz-transition: all 1s;
+		}
+		form textarea{
+			height: 80px;
+		}
+		form input:hover, form textarea:hover{
+			box-shadow: 0 0 .1em black;
+		}
+		form input:focus, form textarea:focus{
+			box-shadow: 0 0 .2em #2A4B9E;
+		}
+		form input:hover, form input:focus,
+		form textarea:hover, form textarea:focus
+		{
+			width: 200px;
+		}
